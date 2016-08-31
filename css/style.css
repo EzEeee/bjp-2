@@ -1,0 +1,130 @@
+/* style.css */
+
+/* 
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+
+img {
+    max-width: 100%
+}
+
+
+/* cover */
+
+#cover {
+    background: #222 url('../img/tjaan2.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0 0 1.5 0;
+}
+
+.display-2 {
+    font-size: 5.5rem;
+    font-weight: 800;
+}
+ 
+
+.section-content {
+    padding: 6.5rem 0;
+}
+
+/* 
+======================
+ABOUT SECTION
+======================
+*/
+
+#about {
+    background: url('../img/paul_t_1.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 1.875rem;
+}
+
+.col-md-6 {
+    float: right;
+}
+
+/* 
+======================
+FOOTER
+======================
+*/
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+
+/* 
+======================
+BOOTSTRAP MEDIA QUERIES
+======================
+*/
+
+@media only screen and (min-width: 320px) {
+    .display-2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .display-2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .display-2 {
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .display-2 {
+        font-size: 5.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
