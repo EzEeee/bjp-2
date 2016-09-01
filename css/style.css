@@ -208,15 +208,19 @@ header ul li{
 
 /* In our demo, the footers are fixed to the bottom of the page */
 
+
+/* EzEee: I changed their default position of "fixed" to "static. The footer does not float in larger viewing sizes now */
 footer{
-	position: fixed;
+	position: static;
 	bottom: 0;
 }
 
+/*
 @media (max-height:800px){
 	footer { position: static; }
 	header { padding-top:40px; }
 }
+*/
 
 /* footer-distributed.css */
 
@@ -278,6 +282,7 @@ footer{
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
+
 @media (max-width: 600px) {
 
 	.footer-distributed .footer-left,
@@ -294,6 +299,7 @@ footer{
 		line-height: 1.8;
 	}
 }
+
 
 
 
