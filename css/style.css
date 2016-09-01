@@ -10,6 +10,7 @@ font-family: 'Raleway', sans-serif;
 html,
 body {
     height: 100%;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -32,12 +33,10 @@ img {
 
 #cover-caption {
     width: 100%;
-    font-family: 'Raleway', sans-serif;
 }
 
 h3 {
     width: 100%;
-    font-family: 'Raleway', sans-serif;
     text-shadow: 0 0 1.5 0;
 }
 
@@ -50,6 +49,18 @@ h3 {
 .section-content {
     padding: 6.5rem 0;
 }
+
+/* 
+======================
+PRODUCTIONS SECTION
+======================
+*/
+
+#h2-productions {
+    margin-top: -4.5rem;
+}
+
+
 
 /* 
 ======================
