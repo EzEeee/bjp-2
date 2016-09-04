@@ -75,8 +75,9 @@ ABOUT SECTION
 */
 
 #about {
-    background: url('../img/paul_t_2.jpg') 40% 0 repeat fixed;
+    background: url('../img/paul_t_2.jpg') center center no-repeat;
     background-size: cover;
+    display: flex;
 }
 
 .about-text {
